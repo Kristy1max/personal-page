@@ -16,9 +16,16 @@
 }
 
 .banner-text {
+  text-align: start;
   font-size: 36px;
   font-weight: 100;
   margin-bottom: 40px;
+
+  h2 {
+    color: #93b5e1;
+    font-size: 20px;
+    font-weight: lighter;
+  }
 }
 
 .img-fluid {

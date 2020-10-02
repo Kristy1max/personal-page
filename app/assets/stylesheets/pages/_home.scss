@@ -1,10 +1,10 @@
 // Specific CSS for your home-page
 * {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: #faf3f3;
+  background-color: white;
   text-align: center;
   font-weight: 300;
   letter-spacing: 1px;
@@ -27,9 +27,7 @@ h1 {
 }
 
 h2 {
-  color: #93b5e1;
-  font-size: 20px;
-  font-weight: lighter;
+  
 }
 
 a {
@@ -79,18 +77,20 @@ a:hover {
   margin: 0 auto;
   padding-bottom: 56px;
   background-color: #f9f9ff; 
-}
 
-#info h2 {
-  font-weight: bolder;
+  h2 {
+    font-weight: bold;
+  }
 }
 
 .welcome-text {
+  text-align: start;
   margin-top: 72px;
   padding: 16px 16px;
 }
 
 .tools {
+  text-align: start;
   margin-top: 72px;
   margin-bottom: 40px;
   padding: 16px 16px;
