@@ -10,6 +10,11 @@ body {
   letter-spacing: 1px;
 }
 
+.container {
+  margin: 20px auto;
+  min-width: 60%;
+}
+
 ul {
   display: block;
   padding-inline-start: 0;
@@ -26,23 +31,14 @@ h1 {
   font-size: 30px;
 }
 
-h2 {
-  
-}
-
-a {
+.card a {
   background-color: white;
   color: #848ccf;
   text-decoration: none;
-}
 
-a:hover {
-  color: #be5683;
-}
-
-.container {
-  margin: 20px auto;
-  min-width: 60%;
+  &:hover {
+    color: #be5683;
+  }
 }
 
 #logo {
@@ -127,8 +123,14 @@ a:hover {
   width: 50%;
 }
 
-.tools p {
+.tools p, a {
   margin-top: 16px;
   margin-bottom: 4px;
-  margin-left: 8px;
+  margin-left: 2px;
+  text-decoration: none;
+  color: black;
+}
+
+.tools a:hover {
+  color: #8291FF;
 }
