@@ -16,7 +16,7 @@
 }
 
 .welcome-text {
-  text-align: start;
+  text-align: justify;
   margin-top: 72px;
   padding: 32px 16px;
 
@@ -75,7 +75,9 @@
   color: #8291FF;
 }
 
-.rocket-img {
-  width: 40px;
-  height: 40px;
+.rocket-img, .team-img, .webdesign-img, .competence-img {
+  margin: 6px auto;
+  width: 60px;
+  height: 60px;
+  display: block;
 }
