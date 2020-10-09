@@ -1,0 +1,30 @@
+.qualifications {
+  min-height: 100vh;
+  
+  h2{
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    -webkit-text-stroke: 1px white;
+  }
+}
+
+.third-section {
+  background: url("/aleksander-vlad-jiVeo0i1EB4-unsplash.jpg");// Photo by Aleksander Vlad on Unsplash
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.single-box {
+  margin-top: 32px;
+  background-color: #f9f9ffb9;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.btm-border{
+    background: rgb(190, 190, 190);
+    width: 70%;
+    height: 1px;
+}
