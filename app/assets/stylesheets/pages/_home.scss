@@ -35,13 +35,12 @@ h1 {
   font-size: 30px;
 }
 
-.card a {
-  background-color: white;
-  color: #848ccf;
-  text-decoration: none;
+a {
+  transition: all .2s ease-in-out;
 
   &:hover {
-    color: #be5683;
+    color: #848ccf;
+    text-decoration: none;
   }
 }
 
