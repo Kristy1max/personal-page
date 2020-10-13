@@ -27,7 +27,7 @@ ul {
 li {
   list-style: none;
   display: inline;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h1 {
@@ -67,4 +67,9 @@ a {
   .container {
     width: 300px;
   }
+}
+
+// footer 
+.card i:hover {
+  transform: scale(1.2);
 }
