@@ -1,0 +1,48 @@
+.fifth-section {
+  min-height: 120%;
+
+  .container {
+    min-width: 80%;
+  }
+}
+
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  justify-content: space-around;
+}
+
+.feature-item {
+  padding: 50px 35px;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 30px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+  p {
+    -webkit-text-stroke: 1px black;
+    background-color: #f9f9ff;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 5px 6px;
+  }
+}
+
+.travel-img {
+  background-image: url('/images/luca-bravo-O453M2Liufs-unsplash.jpg'); // Photo by Luca Bravo on Unsplash
+  background-position: center;
+}
+
+.sport-img {
+  background-image: url('/images/jared-rice-NTyBbu66_SI-unsplash.jpg'); // Photo by Jared Rice on Unsplash
+  background-position: top;
+}
+
+.video-img {
+  background-image: url('/images/joey-huang-jg3NTQilepo-unsplash.jpg'); // Photo by Joey Huang on Unsplash
+  background-position: center;
+}
