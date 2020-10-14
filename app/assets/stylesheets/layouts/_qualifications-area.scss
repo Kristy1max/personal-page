@@ -9,6 +9,10 @@
   }
 }
 
+.qualifications .row {
+  margin-bottom: 36px;
+}
+
 .third-section {
   // Copyright Photo by Aleksander Vlad on Unsplash
   background: url("/aleksander-vlad-jiVeo0i1EB4-unsplash.jpg"); 
@@ -18,7 +22,9 @@
 }
 
 .single-box {
-  margin-top: 32px;
+  margin: 32px auto;
+  //margin-top: 32px;
+  //margin-bottom: 32px;
   background-color: #f9f9ffb9;
   padding: 12px;
   border-radius: 8px;
