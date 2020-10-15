@@ -18,6 +18,10 @@
   height: 75px;
   background-color: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.041);
+
+  &:hover {
+    background: linear-gradient( white, #848ccf36);
+  }
 }
 
 .nav-img {
