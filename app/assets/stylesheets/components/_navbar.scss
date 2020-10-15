@@ -1,6 +1,6 @@
 .nav {
   justify-content: space-between;
-  background-color: #989fe0;
+  background-color: ghostwhite;
   opacity: 0.8;
   position: fixed;
   top: 0;
@@ -30,11 +30,12 @@
 
 
 .active a:hover {
-  color: white !important;
+  color: #848ccf !important;
   transition: all .2s ease-in-out;
   transform: scale(1.1);
 }
 
 .nav-img:hover {
   transform: scale(1.2);
+  transition: all .2s ease-in-out;
 }
