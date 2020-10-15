@@ -14,14 +14,16 @@
 }
 
 .nav .navbar-brand img {
-  width: 50px;
+  width: 80px;
+  height: 75px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.041);
 }
 
 .nav-img {
   margin-left: 24px;
   background-color: white;
   border-radius: 50%;
-  padding: 5px;
   transition: all .2s ease-in-out;
 }
 
