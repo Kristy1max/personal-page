@@ -22,6 +22,7 @@
   background-color: white;
   border-radius: 50%;
   padding: 5px;
+  transition: all .2s ease-in-out;
 }
 
 .nav-link {
@@ -37,5 +38,4 @@
 
 .nav-img:hover {
   transform: scale(1.2);
-  transition: all .2s ease-in-out;
 }
