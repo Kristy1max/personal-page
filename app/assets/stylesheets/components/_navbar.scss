@@ -17,9 +17,10 @@
   width: 55px;
   height: 50px;
   background-color: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.041);
+  //box-shadow: 0 0 15px rgba(0, 0, 0, 0.041);
 
   &:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.041);
     background: linear-gradient( white, #848ccf36);
   }
 }
