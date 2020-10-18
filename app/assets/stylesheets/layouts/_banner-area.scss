@@ -1,8 +1,15 @@
 #home {
-  background-color: white;
+  background: url('/images/nail-gilfanov-TuyneoFacJg-unsplash.jpg'); // Photo by Nail Gilfanov on Unsplash
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   box-sizing: border-box;
+
+  .align-items-center {
+    margin-top: 70px;
+  }
 }
 
 .banner-area {
@@ -14,24 +21,26 @@
 .banner-left h1 span {
   text-transform: uppercase;
   font-weight: 600;
+  color: #848ccf;
+  -webkit-text-stroke: 1px white; 
 }
 
 .banner-text {
   text-align: start;
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 100;
   margin-bottom: 40px;
+  color: whitesmoke;
 
   h2 {
-    color: #93b5e1;
     font-size: 20px;
     font-weight: lighter;
   }
 }
 
 .img-fluid {
-  max-width: 80% !important;
+  max-width: 40% !important;
   height: auto;
   vertical-align: middle;
-  margin-top: 30px;
+  margin-top: 5px;
 }
