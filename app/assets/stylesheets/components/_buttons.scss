@@ -1,79 +1,57 @@
+// Purple button on home page
 .btn-purple {
-  //color: inherit;
-  margin-bottom: 10%;
-  
   position: relative;
+  margin-bottom: 10%;
   padding: 19px 22px;
-  transition: all .2s ease;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 28px;
-    background: rgba(#848ccf,.5);
-    width: 56px;
-    height: 56px;
-    transition: all .3s ease;
-  }
+  transition: all 0.2s ease;
 
-  span {
-    position: relative;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 900;
-    letter-spacing: .25em;
-    text-transform: uppercase;
-    vertical-align: middle;
+  a {
+    text-decoration: none;
+    color: inherit;
   }
-
-  svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #848ccf;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all .3s ease;
-    
-    &:hover {
-      &:before {
-        width: 100%;
-        background: rgba(#848ccf,1);
-      }
-      svg {
-        transform: translateX(0);
-      }
-      &:active {
-        transform: scale(.96);
-      }
-    }
-  }
-
+}
+.btn-purple:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #9098e0;
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+.btn-purple span {
+  position: relative;
+  color: black;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.btn-purple svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.btn-purple:hover:before {
+  width: 100%;
+  background: #848ccf;
   
 }
-
-// .btn-purple {
-//   margin-bottom: 10%;
-
-//   // new
-  
-  
-  
-//   color: #4A4A4A;
-//   border: 1px solid #4A4A4A;
-//   padding: 8px 24px;
-//   border-radius: 50px;
-//   font-weight: lighter;
-//   opacity: 0.6;
-//   transition: opacity 0.3s ease;  
-  
-//   &:hover {
-//     opacity: 1;
-//     background-color: #848ccf;
-//   }
-// }
+.btn-purple:hover svg {
+  transform: translateX(0);
+}
+.btn-purple:active {
+  transform: scale(0.96);
+}
