@@ -25,15 +25,19 @@
 .banner-left h1 span {
   text-transform: uppercase;
   font-weight: 600;
-  color: #848ccf;
+  background: -webkit-linear-gradient(#848ccf, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner-text {
   text-align: start;
-  font-size: 25px;
+  font-size: 34px;
   font-weight: 100;
   margin-bottom: 40px;
   color: whitesmoke;
+  line-height: 110%;
+  //line-height: 2rem;
 
   h2 {
     font-size: 20px;
