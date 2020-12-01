@@ -19,6 +19,10 @@
 .social-links {
   display: flex;
   align-items: center;
+
+  a {
+    font-weight: normal;
+  }
 }
 
 .social-links a {
